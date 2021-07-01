@@ -27,7 +27,7 @@ body {
 
 /* Jumbotron */
 .jumbotron {
-    background-image: url("file://F:/Belajar Koding/HTML CSS/2021/ASET/landingpage/banner.jpg"), linear-gradient(to left top, rgba(0, 0, 0, 1) 20%, rgba(255, 255, 255, 0.3) );
+    background-image: url("F:/Belajar Koding/HTML CSS/2021/ASET/landingpage/banner.jpg"), linear-gradient(to left top, rgba(0, 0, 0, 1) 20%, rgba(255, 255, 255, 0.3) );
     background-attachment: fixed;
     background-size: cover;
     background-blend-mode: multiply;
