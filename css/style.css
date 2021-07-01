@@ -1,0 +1,258 @@
+body {
+    min-height: max-content;
+
+}
+/* Navbar */
+
+.navbar-brand {
+    font-family: 'Viga', sans-serif;
+    font-size: 25px;
+    
+}
+
+.nav-link{
+    margin-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Utility */
+.tombol{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-radius: 80px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url("file://F:/Belajar Koding/HTML CSS/2021/ASET/landingpage/banner.jpg"), linear-gradient(to left top, rgba(0, 0, 0, 1) 20%, rgba(255, 255, 255, 0.3) );
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center center;
+    min-height: 400px;
+
+    text-align: center;
+
+}
+
+.jumbotron::after{
+
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 10%;
+    font-size: 40px;
+    font-weight:lighter;
+
+    text-shadow: 2px 2px 3px black;
+}
+
+.jumbotron .display-4 span {
+    font-style: oblique;
+    font-weight: 600;
+}
+
+.jumbotron .tombol {
+    margin-top: 50px;
+}
+
+/* Info Panell */
+
+.info-panel{
+    background-color: white;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.815);
+    border-radius: 20px;
+    margin-top: -20%;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container .col-lg img{
+    width: 85px;
+    margin: 0 20px 20px 0;
+}
+
+.info-panel h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+
+}
+
+.info-panel p{
+    font-size: 12px;
+    font-weight: 200;
+
+}
+
+
+
+/* working */
+
+.workingspace{
+    text-align: center;
+}
+
+.workingspace img {
+    margin-top: 50px;
+    border-radius: 30px;
+   
+}
+
+
+.workingspace h2{
+    font-size: 52px;
+    font-weight: 200;
+    margin-top: 100px;
+}
+
+.workingspace span{
+    font-weight: 500;
+}
+
+.workingspace p{
+    font-size: 18px;
+    font-weight: 200;
+    color: #acacac;
+
+    margin: 30px 0px;
+}
+
+
+/* testimonial */
+
+.testimonial {
+    margin-top: 100px;
+
+}
+
+.testimonial h5 {
+    text-align: center;
+    color: #949393;
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+.testimonial .foto{
+    margin-top: 50px;
+}
+
+.testimonial figure img{
+    width: 60px;
+    margin: 20px 10px 10px;
+    opacity: 0.6;
+}
+
+.testimonial figure img.aktif {
+    width: 90px;
+    opacity: 1;
+    margin-top: 5px;
+}
+
+.testimonial h6 {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(42, 43, 114);
+
+}
+
+.testimonial figure p{
+    text-align: center;
+    font-size: 12px;
+    color: #acacac;
+    margin-top: -5px;
+}
+
+/* footer */
+
+.footer p{
+    text-align: center;
+    color: #acacac;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.footer hr{
+    width: 4px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link{
+        color: white !important;
+        text-shadow:0 0 2px rgba(0, 0, 0, 0.8);
+    } 
+    .navbar-brand{
+        font-size: 32px;
+    }
+    .nav-link{
+        text-transform: uppercase;
+    }
+    .nav-link:hover::after {
+        content: "";
+        display: block;
+        border-bottom: 3px solid #176DC4;
+        width: 50%;
+        padding-top: 5px;
+        margin: auto;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        margin-top: -75px;
+        min-height: 640px;
+
+    }
+    .jumbotron .display-4{
+        font-size: 62px;
+    }
+    .info-panel {
+        margin-top: -10%;
+    }
+    .workingspace {
+        text-align: left;
+    }
+
+    .testimonial h5 {
+        font-size: 28px;
+    }
+
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
